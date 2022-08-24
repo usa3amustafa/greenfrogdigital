@@ -25,7 +25,6 @@
 .mb-1 {
   margin-bottom: 1rem;
 }
-
 .mb-2 {
   margin-bottom: 2rem;
 }
@@ -38,11 +37,94 @@ em {
   font-size: 1.125rem;
 }
 
+.find-keywords {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.seo-tool,
+.seo-tool-mobile {
+  background-color: var(--light-green-clr);
+}
+
+.seo-tool-mobile .seo-tool-header {
+  padding: 1rem;
+}
+
+.seo-tool-mobile .seo-tool-headline-1 {
+  font-size: 1.25rem;
+}
+
+.seo-tool-mobile .seo-tool-headline-2 {
+  font-size: 1rem;
+}
+
+.seo-tool-mobile .seo-tool-text {
+  padding: 1rem;
+}
+
+.seo-tool-header {
+  background-color: var(--black-clr);
+  color: #fefefe;
+
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.seo-tool-text {
+  background-color: var(--light-green-clr);
+  padding-bottom: 2rem;
+}
+
+.seo-tool-headline-1 {
+  font-size: 2rem;
+  max-width: 30ch;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.seo-tool-headline-2 {
+  font-size: 1.5rem;
+  max-width: 30ch;
+  font-weight: 500;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.seo-tool-text {
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
+.seo-tool-text ul li {
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.seo-tool-text ul {
+  list-style-type: none;
+}
+
+.seo-tool-mobile {
+  display: none;
+}
+
 @media (max-width: 820px) {
   .blog-headline {
     margin-bottom: 0.5rem;
   }
   .blog-desc {
     margin-bottom: 1rem;
+  }
+  .seo-tool {
+    display: none;
+  }
+  .seo-tool-mobile {
+    display: block;
   }
 }
